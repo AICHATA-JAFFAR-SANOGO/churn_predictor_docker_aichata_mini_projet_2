@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: CI/CD Pipeline aichata
 
 on:
   push:
@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/churn-predictor:latest
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/churn-predictor-aichata:latest
